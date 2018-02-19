@@ -5,3 +5,10 @@
     </div>
 @endforeach
 @endif
+
+
+@if(session('success'))
+    <div class="alet alert-success">
+        {{session('success')}}
+    </div>
+@endif
